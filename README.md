@@ -1,10 +1,19 @@
 # AI Resume Screening
 
 ## Project Overview
-This project predicts recruiter decisions using machine learning based on candidate resume information.
+This project predicts recruiter hiring decisions using machine learning techniques based on candidate resume information. The goal is to automate resume screening and identify key factors influencing recruiter decisions.
 
 ## Dataset
-AI Resume Screening Dataset (Kaggle)
+- Source: Kaggle AI Resume Screening Dataset
+- Features:
+  - Name
+  - Skills
+  - Experience (Years)
+  - Education
+  - Projects Count
+  - Salary Expectation
+  - AI Score
+  - Recruiter Decision (Target)
 
 ## Project Structure
 
@@ -15,33 +24,47 @@ FUTURE_ML_03/
 │   ├── 01_data_exploration.ipynb
 │   ├── 02_preprocessing.ipynb
 │   ├── 03_model_training.ipynb
-│  
+|   ├── 04_results.ipynb
 ├── reports/
 ├── src/
 ├── requirements.txt
 └── README.md
 
 ## Exploratory Data Analysis
-- Checked dataset structure
-- Identified missing values
-- Analyzed category distributions
+- Examined dataset structure
+- Checked missing values
+- Analyzed feature distributions
+- Explored target class balance
 
-## Preprocessing
+## Data Preprocessing
 - Removed duplicate records
-- Selected useful features
-- Encoded target variable
+- Selected relevant features
+- Encoded categorical variables
+- Prepared target labels
 
-## Model
-Random Forest Classifier
+## Model Training
+Algorithm Used:
+- Random Forest Classifier
 
 ## Results
-Accuracy: 100%
+
+| Metric | Score |
+|----------|----------|
+| Accuracy | 100% |
 
 ## Feature Importance
-- AI Score (0-100)
-- Experience (Years)
-- Projects Count
-- Salary Expectation ($)
+1. AI Score (0-100)
+2. Experience (Years)
+3. Projects Count
+4. Salary Expectation ($)
+
+## Technologies Used
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
 
 ## Author
 Shreya Debnath
