@@ -1,24 +1,47 @@
 # AI Resume Screening
 
 ## Project Overview
-This project analyzes resume data to understand factors influencing candidate selection. Exploratory Data Analysis (EDA) was performed using Python, Pandas, and Matplotlib.
+This project predicts recruiter decisions using machine learning based on candidate resume information.
 
 ## Dataset
-- Source: Kaggle Resume Screening Dataset
-- Categories: AI Researcher, Data Scientist, Cybersecurity Analyst, Software Engineer
+AI Resume Screening Dataset (Kaggle)
 
-## Exploratory Data Analysis Findings
+## Project Structure
 
-- Dataset contains resume information across multiple job roles.
-- No significant missing values were identified.
-- Job role categories are relatively balanced.
-- Candidate selection decisions vary across resumes.
-- AI scores show noticeable variation among candidates.
-- Experience and project count appear to influence recruitment outcomes.
-- Features such as AI Score, Experience, and Projects Count may be useful for predictive modeling.
+FUTURE_ML_03/
+│
+├── data/
+├── notebooks/
+│   ├── 01_data_exploration.ipynb
+│   ├── 02_preprocessing.ipynb
+│   ├── 03_model_training.ipynb
+│   └── 04_results.ipynb
+├── reports/
+├── src/
+├── requirements.txt
+└── README.md
 
-## Tools Used
-- Python
-- Pandas
-- Matplotlib
-- Jupyter Notebook
+## Exploratory Data Analysis
+- Checked dataset structure
+- Identified missing values
+- Analyzed category distributions
+
+## Preprocessing
+- Removed duplicate records
+- Selected useful features
+- Encoded target variable
+
+## Model
+Random Forest Classifier
+
+## Results
+Accuracy: 100%
+
+## Feature Importance
+- AI Score (0-100)
+- Experience (Years)
+- Projects Count
+- Salary Expectation ($)
+
+## Author
+Shreya Debnath
