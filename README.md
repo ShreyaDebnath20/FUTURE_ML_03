@@ -17,18 +17,20 @@ This project predicts recruiter hiring decisions using machine learning techniqu
 
 ## Project Structure
 
-FUTURE_ML_03/
-│
-├── data/
-├── notebooks/
-│   ├── 01_data_exploration.ipynb
-│   ├── 02_preprocessing.ipynb
-│   ├── 03_model_training.ipynb
-|   ├── 04_results.ipynb
-├── reports/
-├── src/
-├── requirements.txt
-└── README.md
+| Folder/File                 | Description                                 |
+| --------------------------- | ------------------------------------------- |
+| `data/`                     | Dataset files                               |
+| `notebooks/`                | Jupyter notebooks for analysis and modeling |
+| `01_data_exploration.ipynb` | Exploratory Data Analysis                   |
+| `02_preprocessing.ipynb`    | Data cleaning and preprocessing             |
+| `03_model_training.ipynb`   | Random Forest model training                |
+| `04_results.ipynb`          | Model evaluation and results                |
+| `models/`                   | Saved machine learning models               |
+| `reports/`                  | Generated reports and outputs               |
+| `src/`                      | Source code files                           |
+| `main.py`                   | Main execution script                       |
+| `requirements.txt`          | Project dependencies                        |
+| `README.md`                 | Project documentation                       |
 
 ## Exploratory Data Analysis
 - Examined dataset structure
